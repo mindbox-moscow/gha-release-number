@@ -8,5 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: mindbox-moscow/GHA-ReleaseNumber@v1
-    - name: Run the action
+      - name: Run the action
+        uses: mindbox-moscow/GHA-ReleaseNumber@v1
+        id: release-number
