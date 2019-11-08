@@ -1,0 +1,24 @@
+{
+  "name": "@mindbox/gha-release-number",
+  "version": "1.0.0",
+  "description": "GitHub Action for generating new release number by looking at the latest release",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindbox-moscow/GHA-ReleaseNumber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindbox-moscow/GHA-ReleaseNumber/issues"
+  },
+  "homepage": "https://github.com/mindbox-moscow/GHA-ReleaseNumber#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0"
+  }
+}

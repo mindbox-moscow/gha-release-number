@@ -1,0 +1,12 @@
+name: 'GHA Release Number'
+description: 'Generate new release number by looking at the latest release'
+inputs:
+  token:
+    description: 'GitHub token'
+    required: true
+outputs:
+  next-number:
+    description: 'Next release number'
+runs:
+  using: 'node12'
+  main: 'index.js'
