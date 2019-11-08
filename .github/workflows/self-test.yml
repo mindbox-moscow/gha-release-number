@@ -9,5 +9,7 @@ jobs:
 
     steps:
       - name: Run the action
-        uses: mindbox-moscow/GHA-ReleaseNumber@v0.0.1
-        id: release-number
+        uses: mindbox-moscow/GHA-ReleaseNumber@v1.0.0
+        id: release-number        
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
