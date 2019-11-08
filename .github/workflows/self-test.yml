@@ -9,5 +9,5 @@ jobs:
 
     steps:
       - name: Run the action
-        uses: mindbox-moscow/GHA-ReleaseNumber@v1
+        uses: mindbox-moscow/GHA-ReleaseNumber@v0.0.1
         id: release-number
