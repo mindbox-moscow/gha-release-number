@@ -4,7 +4,7 @@ const github = require('@actions/github');
 const defaultReleaseNumber = '1.0.0';
 
 const githubToken = core.getInput('token');
-const repoFullName = env.GITHUB_REPOSITORY;
+const repoFullName = process.env.GITHUB_REPOSITORY;
 
 
 async function getNextReleaseNumber() {
