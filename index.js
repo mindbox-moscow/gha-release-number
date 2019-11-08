@@ -6,6 +6,8 @@ try {
 
   console.log(`The event payload: ${payload}`);
 
+  core.setOutput("next-number", "1.2.3");
+
 } catch (error) {
   core.setFailed(error.message);
 }
