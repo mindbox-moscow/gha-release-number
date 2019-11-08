@@ -1,0 +1,12 @@
+name: Self-test
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: mindbox-moscow/GHA-ReleaseNumber@v1
+    - name: Run the action
